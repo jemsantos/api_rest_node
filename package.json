@@ -1,0 +1,32 @@
+{
+  "name": "api_node",
+  "version": "1.0.0",
+  "description": "Primeira API node.js da materia back-end cotemig",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node loader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemsantos/api_rest_node.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "Express",
+    "mongodb"
+  ],
+  "author": "Jose Eustaquio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jemsantos/api_rest_node/issues"
+  },
+  "homepage": "https://github.com/jemsantos/api_rest_node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.17",
+    "node-restful": "^0.2.6"
+  }
+}
